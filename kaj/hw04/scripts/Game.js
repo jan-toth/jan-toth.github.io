@@ -21,7 +21,7 @@ class Game {
 
         this._reset();
 
-        this._world = new World(this._width, this._mapHeight, this, '../images/world-map.svg');
+        this._world = new World(this._width, this._mapHeight, this, 'images/world-map.svg');
         this._controls = new Controls(this);
     }
 
